@@ -4,6 +4,9 @@
       {
           "src": "*.py",
           "use": "@vercel/python"
+      },
+      {
+          "use": "@vercel/libcurl4-gnutls-dev"
       }
   ],
   "routes": [
